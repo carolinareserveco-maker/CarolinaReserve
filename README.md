@@ -1,22 +1,23 @@
 # Carolina Reserve Cigars Website
 
-A simple static website for the Carolina Reserve cigar store concept.
+A simple static website for the Carolina Reserve custom hand rolled cigar store concept.
 
 ## Files
 
-- `index.html` - elegant jazz-style homepage
-- `maduros.html` - original maduro cigar collection page
-- `order.html` - order request form page
+- `index.html` - main luxury white-and-gold homepage
+- `maduros.html` - Maduro collection page
+- `claro.html` - Claro collection page featuring Carolina Reserve Classica
+- `order.html` - order request form using mailto
 - `style.css` - styling and responsive layout
 
 ## How to use on GitHub Pages
 
 1. Create a new GitHub repository.
-2. Upload `index.html`, `maduros.html`, `order.html`, `style.css`, and this `README.md`.
+2. Upload `index.html`, `maduros.html`, `claro.html`, `order.html`, `style.css`, and this `README.md`.
 3. Go to **Settings > Pages**.
 4. Under **Branch**, choose `main` and `/root`.
 5. Save and wait for GitHub Pages to publish the site.
 
 ## Note
 
-This site includes an adult 21+ tobacco disclaimer and a mailto-based order request form. Update legal language, product availability, pricing, and compliance rules before using it for a real business.
+This site includes an adult 21+ tobacco disclaimer. Update legal language, product availability, pricing, taxes, licensing, shipping rules, and compliance before using it for a real business.
