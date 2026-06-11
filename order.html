@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order | Carolina Reserve</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="order-page">
+  <header class="page-hero order-hero">
+    <nav class="navbar lounge-nav">
+      <div class="logo">Carolina Reserve</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="maduros.html">Maduros</a>
+        <a href="order.html">Order</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="page-hero-content">
+      <p class="eyebrow">Reserve Your Selection</p>
+      <h1>Place an Order Request</h1>
+      <p class="hero-text">
+        Send your name, email, cigar selection, and quantity directly to Carolina Reserve.
+        Orders are request-only until availability and age verification are confirmed.
+      </p>
+    </section>
+  </header>
+
+  <main>
+    <section class="section order-section">
+      <div class="order-info">
+        <p class="section-label">Menu</p>
+        <h2>Maduro Cigars</h2>
+        <p class="section-intro">
+          Choose from the signature Carolina Reserve blends. Pricing shown is for request purposes only.
+        </p>
+
+        <div class="price-list">
+          <div>
+            <h3>Single Cigar</h3>
+            <p>$12 each</p>
+          </div>
+          <div>
+            <h3>Five Pack</h3>
+            <p>$40 per pack</p>
+          </div>
+        </div>
+
+        <p class="legal-note">
+          Tobacco products are for adults 21+ only. This form does not process payment.
+          Confirm local tobacco sales, shipping, tax, and licensing rules before using this for a real business.
+        </p>
+      </div>
+
+      <form class="order-form" action="mailto:nickdspen@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="Full Name" placeholder="Your full name" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="Email" placeholder="you@example.com" required />
+
+        <label for="blend">Cigar Selection</label>
+        <select id="blend" name="Cigar Selection" required>
+          <option value="">Choose a cigar</option>
+          <option value="Carolina Reserve Mocha">Carolina Reserve Mocha</option>
+          <option value="Velours Luxe Maduro">Velours Luxe Maduro</option>
+          <option value="Sweet Cream Reserve">Sweet Cream Reserve</option>
+          <option value="Assorted Maduro Sampler">Assorted Maduro Sampler</option>
+        </select>
+
+        <label for="pack">Order Type</label>
+        <select id="pack" name="Order Type" required>
+          <option value="">Choose an option</option>
+          <option value="Single Cigar - $12">Single Cigar - $12</option>
+          <option value="Five Pack - $40">Five Pack - $40</option>
+        </select>
+
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="Quantity" min="1" value="1" required />
+
+        <label for="notes">Order Notes</label>
+        <textarea id="notes" name="Order Notes" rows="5" placeholder="Preferred pickup/shipping details, blend mix, or questions"></textarea>
+
+        <label class="checkbox-line">
+          <input type="checkbox" name="Age Confirmation" value="Confirmed 21+" required />
+          I confirm I am 21 or older.
+        </label>
+
+        <button type="submit" class="btn form-btn">Send Order Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Carolina Reserve. For adults 21+ only. Tobacco products carry health risks.</p>
+  </footer>
+</body>
+</html>
